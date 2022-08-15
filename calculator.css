@@ -1,0 +1,64 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+
+}    
+.result{
+    width: 99%;
+    height: 60px;
+    background-color: rgba(31, 30, 30, 0.909);
+    font-size: 48px;
+
+}
+.calculator{
+    /* display: flex; */
+    width: 400px;
+    border: 5px solid black;
+}
+/* #result{
+    width: 100%;
+    border-right: 5px solid black; 
+    padding-right: 5px;
+} */
+.button-box{
+    display: flex;
+    flex-direction: row; 
+    
+     background-color: black;
+
+}
+.add{
+    margin: auto auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.gray{
+    background-color: rgba(31, 30, 30, 0.909);
+    color: white;
+}
+.submain{
+    background-color: black;
+}
+.skyblue{
+    background-color: rgb(77, 169, 205);
+}
+.whitsm{
+    background-color: rgb(206, 245, 233);
+}
+.green{
+    background-color: rgb(162, 234, 162);
+}
+.add:active{
+    border-radius: 13px;
+}
+/* .add:hover{
+    border-radius: 13px;
+} */
